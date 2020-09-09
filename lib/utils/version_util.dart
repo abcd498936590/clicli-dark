@@ -74,13 +74,13 @@ Future<void> checkAppUpdate() async {
                   FlatButton(
                     child: Text('更新'),
                     onPressed: () {
-                      launch('https://admin.clicli.me/register');
+                      launch('https://app.clicli.me');
                     },
                   ),
                   FlatButton(
                     child: Text('还是更新'),
                     onPressed: () {
-                      launch('https://admin.clicli.me/register');
+                      launch('https://app.clicli.me');
                     },
                   ),
                 ],
